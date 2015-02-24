@@ -11,6 +11,7 @@
 }
 
 .content-sidebar {
+  position: relative;
   float: left;
   width: 200px;
   min-height: inherit;
@@ -18,6 +19,7 @@
 }
 
 .content-main {
+  position: relative;
   float: right;
   width: 619px;
   min-height: inherit;
