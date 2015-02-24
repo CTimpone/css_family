@@ -4,13 +4,11 @@
 }
 
 .notification-list {
+  left: -1px;
+  border: 1px solid #ccc;
   position: absolute;
   background: #fff;
   color: #000;
-  top: 40px;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
   font-size: 14px;
   border-bottom-left-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
@@ -46,8 +44,6 @@
 }
 
 .notification-list > li > a {
-  padding: 10px 20px;
-  display: block;
   white-space: nowrap;
 }
 
